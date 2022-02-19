@@ -65,6 +65,7 @@ public class TestNGsample {
  public void load() 
  
  {	 System.out.println("This is first priority");
+ 
  }
 
  @AfterTest

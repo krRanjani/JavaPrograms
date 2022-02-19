@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-18T14:42:15 EST" name="Default suite" finished-at="2022-02-18T14:42:35 EST" duration-ms="20133">
+  <suite started-at="2022-02-19T00:12:04 EST" name="Default suite" finished-at="2022-02-19T00:12:11 EST" duration-ms="7205">
     <groups>
     </groups>
-    <test started-at="2022-02-18T14:42:15 EST" name="Default test" finished-at="2022-02-18T14:42:35 EST" duration-ms="20133">
-      <class name="com.testing.TestNGsample">
-        <test-method is-config="true" signature="launch()[pri:0, instance:com.testing.TestNGsample@66d3eec0]" started-at="2022-02-18T14:42:15 EST" name="launch" finished-at="2022-02-18T14:42:29 EST" duration-ms="14540" status="PASS">
+    <test started-at="2022-02-19T00:12:04 EST" name="Default test" finished-at="2022-02-19T00:12:11 EST" duration-ms="7205">
+      <class name="com.testing.FacebookLogin">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.testing.FacebookLogin@1af2d44a]" started-at="2022-02-19T00:12:04 EST" name="launchBrowser" finished-at="2022-02-19T00:12:10 EST" duration-ms="5712" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method signature="load()[pri:1, instance:com.testing.TestNGsample@66d3eec0]" started-at="2022-02-18T14:42:29 EST" name="load" finished-at="2022-02-18T14:42:29 EST" duration-ms="8" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="fbLogin()[pri:2, instance:com.testing.FacebookLogin@1af2d44a]" started-at="2022-02-19T00:12:10 EST" name="fbLogin" finished-at="2022-02-19T00:12:10 EST" duration-ms="674" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- load -->
-        <test-method signature="click()[pri:2, instance:com.testing.TestNGsample@66d3eec0]" started-at="2022-02-18T14:42:29 EST" name="click" finished-at="2022-02-18T14:42:32 EST" duration-ms="2946" status="PASS">
+        </test-method> <!-- fbLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testing.FacebookLogin@1af2d44a]" started-at="2022-02-19T00:12:10 EST" name="closeBrowser" finished-at="2022-02-19T00:12:11 EST" duration-ms="774" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- click -->
-        <test-method signature="verifyLink()[pri:3, instance:com.testing.TestNGsample@66d3eec0]" started-at="2022-02-18T14:42:32 EST" name="verifyLink" finished-at="2022-02-18T14:42:32 EST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLink -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.testing.TestNGsample@66d3eec0]" started-at="2022-02-18T14:42:32 EST" name="close" finished-at="2022-02-18T14:42:35 EST" duration-ms="2525" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- com.testing.TestNGsample -->
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testing.FacebookLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
